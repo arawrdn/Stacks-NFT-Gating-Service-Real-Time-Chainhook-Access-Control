@@ -1,0 +1,22 @@
+{
+  "chainhook": {
+    "url": "https://chainhook.stacks.co/mainnet/events",
+    "network": "mainnet"
+  },
+  "nft": {
+    "contractAddress": "SP3FBR2NFTGATE1234XYZ",
+    "collectionName": "MembershipPass"
+  },
+  "access": {
+    "allowedRole": "member",
+    "mode": "token-gated"
+  },
+  "monitor": {
+    "pollInterval": 10,
+    "outputMode": "console"
+  },
+  "alert": {
+    "webhook": "",
+    "failureAlert": ""
+  }
+}
